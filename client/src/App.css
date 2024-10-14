@@ -1,0 +1,211 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* src/App.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #f0f4ff;
+  padding: 20px;
+}
+
+.appointment-form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: auto;
+  gap: 10px;
+}
+
+input, select, textarea, button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* src/App.css */
+.appointments-list {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+/* App.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #007bff; /* Blue background */
+  padding: 10px;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  /* justify-content: right; */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-list li {
+  margin: 0 55px;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
+.header {
+  margin: 20px 0;
+  font-size: 1.5em;
+}
+
+.footer {
+  background-color: #007bff; /* Blue background */
+  color: white;
+  padding: 10px 0;
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+.image-container {
+  margin: 20px 0;
+}
+
+.appointment-image {
+  max-width: 100%; /* Ensure image scales within the container */
+  height: auto;
+}
+
+/* App.css */
+.navbar {
+  background-color: #007bff; /* Blue background */
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-list li {
+  margin: 0 15px;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
+/* New Appointment Button Styling */
+.new-appointment-btn {
+  background-color: white;
+  color: #007bff;
+  border: 2px solid #007bff;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.new-appointment-btn:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Image Styling */
+.image-container {
+  margin: 20px 0;
+}
+
+.appointment-image {
+  max-width: 100%; /* Ensure image scales within the container */
+  height: auto;
+}
+
